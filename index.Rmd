@@ -24,7 +24,7 @@ cow::borrow_chapter(
 ## Previous AnVIL CoFests!
 
 ```{r echo=FALSE, fig.alt = "ACC 2024 CoFest! Images", fig.link = "https://jhudatascience.org/AnVIL_CoFests_2024/"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1vbIwwMYnG-jvtKQ23vH0UkJeei-Ze_m3FB4seG_yMnk/edit?slide=id.p#slide=id.p")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1vbIwwMYnG-jvtKQ23vH0UkJeei-Ze_m3FB4seG_yMnk/edit?slide=id.g3776c8c71f0_2_138#slide=id.g3776c8c71f0_2_138")
 ```
 
 [ACC 2024 at Cold Spring Harbor Laboratories](https://jhudatascience.org/AnVIL_CoFests_2024/)
