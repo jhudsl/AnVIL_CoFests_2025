@@ -21,6 +21,14 @@ cow::borrow_chapter(
 )
 ```
 
+## Previous AnVIL CoFests!
+
+```{r echo=FALSE, fig.alt = "ACC 2024 CoFest! Images", fig.link = "https://jhudatascience.org/AnVIL_CoFests_2024/"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1vbIwwMYnG-jvtKQ23vH0UkJeei-Ze_m3FB4seG_yMnk/edit?slide=id.p#slide=id.p")
+```
+
+[ACC 2024 at Cold Spring Harbor Laboratories](https://jhudatascience.org/AnVIL_CoFests_2024/)
+
 ## AnVIL Collection {- .unlisted}
 
 Please check out our full collection of AnVIL and related resources: https://hutchdatascience.org/AnVIL_Collection/
