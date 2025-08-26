@@ -6,6 +6,7 @@ BIPOC
 Bloomberg
 Bookdown
 chapt
+CoFest
 Coursera
 creativecommons
 css
@@ -36,6 +37,7 @@ itcrtraining
 ITN
 LastName
 Leanpub
+Lebo
 Licensor
 LICENSOR
 Markua
@@ -48,13 +50,18 @@ OTTR
 ottrpal
 ottrproject
 Pandoc
+Parpattedar
 png
+Polygenic
+polygenic
 pre
+PRS
 reproducibility
 rmarkdown
 RMarkdown
 Savonen
 sexualized
+Shruti
 socio
 synched
 tada
@@ -63,5 +70,6 @@ UE5
 underserved
 Videographer
 Videography
+WDL
 WIPO	
 www
