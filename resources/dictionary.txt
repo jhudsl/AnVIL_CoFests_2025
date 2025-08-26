@@ -1,5 +1,6 @@
 acc
 ACC
+Allissa
 Anshul
 AnVIL
 AnVIL's
@@ -28,6 +29,7 @@ CoV
 customizations
 dex
 dexamethasone
+Dillman
 DNase
 dropdown
 galaxyproject
@@ -75,6 +77,7 @@ RStudio
 Scalable
 seqr
 skillset
+TBD
 terra
 timeframe
 underserved
