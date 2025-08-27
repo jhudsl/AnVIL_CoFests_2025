@@ -1,10 +1,9 @@
 anvil-101
 about
 workspace
-polygenic-risk-score-prs-analysis-in-anvil
+polygenic-risk-score-prs-mix-analysis-in-anvil
 about-1
-workspace-1
 reproducible-analysis-on-anvil-title-tbd
 about-2
-workspace-2
+workspace-1
 references
