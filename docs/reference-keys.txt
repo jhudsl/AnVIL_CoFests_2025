@@ -3,7 +3,7 @@ about
 workspace
 polygenic-risk-score-prs-mix-analysis-in-anvil
 about-1
-reproducible-analysis-on-anvil-title-tbd
+anvil-mini-hack-reproducibility-in-action
 about-2
 workspace-1
 references
