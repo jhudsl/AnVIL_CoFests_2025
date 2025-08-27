@@ -48,6 +48,7 @@ github
 Glimma
 glimmaMDS
 Gmail
+hackathon
 Hackathon
 hackathons
 Hackathons
@@ -75,6 +76,7 @@ mgb
 NCI
 NHGRI
 NHGRI's
+omics
 Onboarding
 OTTR
 ottrpal
@@ -98,7 +100,7 @@ UE5
 Videographer
 Videography
 WDL
-WIPO	
+WIPO
 plotMDS
 pre
 precompiled
