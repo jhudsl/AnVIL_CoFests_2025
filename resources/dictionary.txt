@@ -82,6 +82,9 @@ ottrproject
 Pandoc
 Parpattedar
 png
+polygenic
+Polygenic
+PRS
 rmarkdown
 RMarkdown
 Savonen
