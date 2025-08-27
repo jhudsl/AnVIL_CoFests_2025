@@ -1,4 +1,4 @@
-# Reproducible Analysis on AnVIL (title TBD)
+# AnVIL Mini Hack: Reproducibility in Action!
 
 Led by: Allissa Dillman, Engagement and Outreach Lead for the Office of Data Science Strategy at the NIH
 
@@ -12,4 +12,4 @@ Participants are not required to supply their own data, as publicly available da
 
 ## Workspace
 
-The workspace for this track can be found at 
+The workspace for this track can be found at
