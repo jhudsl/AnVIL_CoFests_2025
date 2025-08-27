@@ -1,26 +1,34 @@
 ---
-title: "Course Name"
-date: "`r format(Sys.time(), '%B, %Y')`"
+title: "AnVIL CoFests! 2025"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
-favicon: assets/dasl_favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
+description: Description about Course/Book.
+favicon: assets/AnVIL_style/anvil_favicon.ico
 ---
 
-# About this Course {-}
+# What are CoFests!? {-}
 
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_cofest_definition.Rmd",
+  repo_name = "jhudsl/AnVIL_Template",
+  branch = "cofestChunks",
+  remove_h1 = TRUE
+)
+```
 
-## Available course formats
+## Previous AnVIL CoFests! {- .unlisted}
 
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
+```{r echo=FALSE, out.width = "100%", fig.alt = "ACC 2024 CoFest! Images", fig.link = "https://jhudatascience.org/AnVIL_CoFests_2024/"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1vbIwwMYnG-jvtKQ23vH0UkJeei-Ze_m3FB4seG_yMnk/edit?slide=id.g3776c8c71f0_2_138#slide=id.g3776c8c71f0_2_138")
+```
 
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE).
+[ACC 2024 at Cold Spring Harbor Laboratories](https://jhudatascience.org/AnVIL_CoFests_2024/)
+
+## AnVIL Collection {- .unlisted}
+
+Please check out our full collection of AnVIL and related resources: https://hutchdatascience.org/AnVIL_Collection/

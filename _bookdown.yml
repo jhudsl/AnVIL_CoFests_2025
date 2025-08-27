@@ -1,14 +1,19 @@
-book_filename: "Course_Name"
+book_filename: "AnVIL CoFest 2025"
 chapter_name: "Chapter "
-repo: https://github.com/ottrproject/OTTR_Template/
+repo: https://github.com/jhudsl/AnVIL_CoFest_2025/
 rmd_files: ["index.Rmd",
-            "01-intro.Rmd",
-            "02-chapter_of_course.Rmd",
+            "organizer-guide.Rmd",
+            "anvil101.Rmd",
+            "prs-analysis.Rmd",
+            "reproducibility.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
+bibliography: [book.bib]
 delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter"
 output_dir: "docs"
+output:
+    bookdown::html_book
