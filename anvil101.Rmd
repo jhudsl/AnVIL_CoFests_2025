@@ -2,7 +2,7 @@
 
 Led by: Ava Hoffman, Fred Hutch Cancer Center
 
-AnVIL Outreach coordinator: TBA
+<!-- AnVIL Outreach coordinator: TBA -->
 
 ## About
 
