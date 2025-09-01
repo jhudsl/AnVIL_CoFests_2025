@@ -63,7 +63,7 @@ In the next steps, we'll copy over some SRA data (in FASTQ format) to AnVIL. Our
 
 ## Moving data from buckets to persistent disks
 
-By running the workflow above, we brought some data into GCP using AnVIL, into something called a "bucket". A Google bucket, more formally known as a Cloud Storage bucket, is a fundamental container for data in Google Cloud Storage (GCS). Buckets are used to organize objects (files of any format) and control access to them.
+By running the workflow above, we brought some data into GCP using AnVIL, into something called a "bucket". A Google bucket, more formally known as a Cloud Storage bucket, is a fundamental container for data in Google Cloud Storage. Buckets are used to organize objects (files of any format) and control access to them.
 
 On AnVIL, you'll need to think about storage and computing being different computers. We'll have to move any data we want to analyze into a computing environment's "persistent disk".
 
@@ -87,8 +87,8 @@ You can also use workflows to get data from a protected source.
 
 For example, you can use workflows to get data from [dbGaP](https://dbgap.ncbi.nlm.nih.gov/home), if it's not already available on AnVIL/GCP somewhere. Here are two WDL workflows in Dockstore for doing this type of work:
 
-- From the Broad Institute’s Manning Lab: manning-lab/fetch-dbgap-data-workflow
-- From the UW Genetic Analysis Center: UW-GAC/fetch-dbgap-files
+- From the Broad Institute’s Manning Lab: `manning-lab/fetch-dbgap-data-workflow`
+- From the UW Genetic Analysis Center: `UW-GAC/fetch-dbgap-files`
 
 ## Bring your own data
 
@@ -100,6 +100,6 @@ HPC access and setups vary from institution to institution. Here, we'll walk thr
 
 2. Click the "Upload" button and upload this file: https://genomicseducation.org/data/mouse_gutbrain_de_counts_prefrontalcortex.csv. You might need to right-click to save this file to your local machine.
 
-3. Navigate to the "ANALYSES" tab. Select the "mouse_gutbrain_DE.ipynb" notebook. Click "Open".
+3. Navigate to the "ANALYSES" tab. Select the `mouse_gutbrain_DE.ipynb` notebook. Click "Open".
 
 4. Follow along with the instructions in the notebook to perform some analyses!
