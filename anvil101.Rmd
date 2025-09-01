@@ -31,7 +31,7 @@ Luckily, if data is already on AnVIL, there is less you have to do to start work
 
 > Within the context of Google Cloud Storage, the GCP URI is a Uniform Resource Identifier that points to a specific resource, such as a bucket or an object (file), within Cloud Storage.
 
-Some consortia have created AnVIL Workspaces to organize their data. If you clone (copy) these workspaces, links to the data will be copied as well. You can then point to these links in WDL workflows, or copy these data into interactive compute environments (like Galaxy, RStudio, or Jupter Notebooks/Terminal environment).
+Some consortia have created AnVIL Workspaces to organize their data. If you clone (copy) these workspaces, links to the data will be copied as well. You can then point to these links in WDL workflows, or copy these data into interactive compute environments (like Galaxy, RStudio, or Jupyter Notebooks/Terminal environment).
 
 If your data is already stored in GCP, you can use the links directly.
 
@@ -47,7 +47,7 @@ In the next steps, we'll copy over some SRA data (in FASTQ format) to AnVIL. Our
 
 3. Click "Find a Workflow". Click on "Dockstore.org". 
 
-4. Once on Dockstore, browse for "sra fetch". Scroll down a bit to find "aofarrel/SRANWRP/pull_FASTQs_from_SRA_by_run". Click on this workflow, or go directly to it [here](https://dockstore.org/workflows/github.com/aofarrel/SRANWRP/pull_FASTQs_from_SRA_by_run:v1.1.18?tab=info). 
+4. Once on Dockstore, browse for "SRA fetch". Scroll down a bit to find "aofarrel/SRANWRP/pull_FASTQs_from_SRA_by_run". Click on this workflow, or go directly to it [here](https://dockstore.org/workflows/github.com/aofarrel/SRANWRP/pull_FASTQs_from_SRA_by_run:v1.1.18?tab=info). 
 
 5. On the righthand side, find "Launch with" and select "AnVIL". On the dropdown for "Destination Workspace" select the workspace clone you made above ("AnVIL101-CoFest2025-{your name here}").
 
