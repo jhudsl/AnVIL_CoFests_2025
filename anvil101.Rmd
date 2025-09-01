@@ -85,7 +85,7 @@ In the next steps, we'll shift gears a bit to examine some processed data.
 
 You can also use workflows to get data from a protected source. 
 
-For example, you can use workflows to get data from [dbGaP](https://dbgap.ncbi.nlm.nih.gov/home), if it's not already available on AnVIL/GCP somewhere. Here are two WDL workflows in Dockstore for doing this type of work:
+For example, you can use workflows to get data from [dbGaP](https://dbgap.ncbi.nlm.nih.gov/home), if it's not already available on AnVIL/GCP somewhere. Here are two WDL workflows in [Dockstore](https://dockstore.org/) for doing this type of work:
 
 - From the Broad Institute’s Manning Lab: `manning-lab/fetch-dbgap-data-workflow`
 - From the UW Genetic Analysis Center: `UW-GAC/fetch-dbgap-files`
