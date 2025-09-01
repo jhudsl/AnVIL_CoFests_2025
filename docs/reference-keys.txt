@@ -1,6 +1,9 @@
 anvil-101
 about
 workspace
+data-on-anvil
+data-already-on-anvil-or-gcp
+data-from-a-public-repository
 polygenic-risk-score-prs-mix-analysis-in-anvil
 about-1
 reproducible-analysis-on-anvil-title-tbd
