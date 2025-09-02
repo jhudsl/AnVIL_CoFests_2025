@@ -6,10 +6,10 @@ Led by: Ava Hoffman, Fred Hutch Cancer Center
 
 AnVIL Outreach coordinators: 
 
-Elizabeth Humphries, Fred Hutch Cancer Center
-Kate Isaac, Fred Hutch Cancer Center
-Natalie Kucher, Johns Hopkins University
-Stephen Mosher, Johns Hopkins University
+- Elizabeth Humphries, Fred Hutch Cancer Center
+- Kate Isaac, Fred Hutch Cancer Center
+- Natalie Kucher, Johns Hopkins University
+- Stephen Mosher, Johns Hopkins University
 
 ## About
 
