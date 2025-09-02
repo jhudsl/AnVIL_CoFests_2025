@@ -4,6 +4,11 @@ workspace
 data-on-anvil
 data-already-on-anvil-or-gcp
 data-from-a-public-repository
+data-from-sra
+buckets-and-persistent-disks
+data-from-a-protected-source
+bring-your-own-data
+shut-down-environments
 polygenic-risk-score-prs-mix-analysis-in-anvil
 about-1
 reproducible-analysis-on-anvil-title-tbd
