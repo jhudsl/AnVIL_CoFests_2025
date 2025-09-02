@@ -139,3 +139,6 @@ Workspace's
 workspaces
 Workspaces
 www
+ipynb
+Kucher
+Mosher
