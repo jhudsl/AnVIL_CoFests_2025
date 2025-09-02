@@ -4,13 +4,20 @@ Led by: Ava Hoffman, Fred Hutch Cancer Center
 
 <br><br>
 
-<!-- AnVIL Outreach coordinator: TBA -->
+AnVIL Outreach coordinators: 
+
+Elizabeth Humphries, Fred Hutch Cancer Center
+Kate Isaac, Fred Hutch Cancer Center
+Natalie Kucher, Johns Hopkins University
+Stephen Mosher, Johns Hopkins University
 
 ## About
 
 This track will consist of both an overview and a hands-on workshop to provide individuals with a starting point to their work on AnVIL.
 
 Participants are not required to supply their own data, as publicly available data and an AnVIL workspace will be provided as part of the CoFest track.
+
+You can follow along with the agenda on Google Docs [here](https://docs.google.com/document/d/1P_Dgiv5YEVagXI0uObR7ajAoyWGof94A9PhffB1HSVg/edit?tab=t.0).
 
 ## Workspace
 
@@ -31,7 +38,7 @@ Gathering your data is one of the first steps of any analysis (assuming you alre
 
 ## Data already on AnVIL (or GCP)
 
-Luckily, if data is already on AnVIL, there is less you have to do to start working with it. Under the hood, AnVIL uses [Google Cloud Platform](https://cloud.google.com/) (GCP) to store data. Each data file will therefore get a Google Cloud URI that starts with `gs://`. 
+Luckily, if data is already on AnVIL, there is less you have to do to start working with it. Under the hood, AnVIL uses [Google Cloud Platform](https://cloud.google.com/) (GCP) to store data. Each data file will therefore get a Google Cloud URI that starts with `gs://`. These URIs can be referenced inside workflows and copied into analysis environments.
 
 > Within the context of Google Cloud Storage, the GCP URI is a Uniform Resource Identifier that points to a specific resource, such as a bucket or an object (file), within Cloud Storage.
 
@@ -44,6 +51,8 @@ If your data is already stored in GCP, you can use the links directly.
 If our data is located elsewhere, such as in [SRA](https://www.ncbi.nlm.nih.gov/sra), we will need to bring the data into AnVIL/GCP storage. We could manually upload and download data, but that could take a long time, and might get interrupted if our computer or internet connection acts up. Better that we cut out the middle step, and have the SRA talk directly to AnVIL!
 
 In the next steps, we'll copy over some SRA data (in FASTQ format) to AnVIL. Our goal is to get some RNA-Seq data associated with [this study](https://pubmed.ncbi.nlm.nih.gov/31150625/).
+
+### Data from SRA
 
 1. Clone the Workspace. Use the billing project provided by your instructor, or one of your choice. You might want to call the workspace "AnVIL101-CoFest2025-{your name here}", because workspace names on the same billing project must be unique.
 
@@ -61,7 +70,7 @@ In the next steps, we'll copy over some SRA data (in FASTQ format) to AnVIL. Our
 
 8. Click the "Save" button. Then, click "Launch". Click "Launch" again to confirm. It will take 5-6 minutes.
 
-## Moving data from buckets to persistent disks
+### Buckets and persistent disks
 
 By running the workflow above, we brought some data into GCP using AnVIL, into something called a "bucket". A Google bucket, more formally known as a Cloud Storage bucket, is a fundamental container for data in Google Cloud Storage. Buckets are used to organize objects (files of any format) and control access to them.
 
@@ -73,11 +82,11 @@ On AnVIL, you'll need to think about storage and computing being different compu
 
 3. Locate your files by clicking through the folders. On the three-dot menu, you can copy the gsutil URI. We can use this link to bring our data into an AnVIL compute environment.
 
-11. Navigate back to the Jupyter Notebook. Click the "Terminal" icon on the righthand side. Check out the files you have in this compute environment with `ls`. You can also see the GCP info, including the workspace bucket with `gcloud storage ls`.
+4. Navigate back to the Jupyter Notebook. Click the "Terminal" icon on the righthand side. Check out the files you have in this compute environment with `ls`. You can also see the GCP info, including the workspace bucket with `gcloud storage ls`.
 
 > Remember that GCP storage (data "in the workspace") differs from the temporary storage associated with a Jupyter computing environment's persistent disk. You'll need to move data back and forth.
 
-12. Bring data into this computing environment: `gcloud storage cp {URI HERE} .`. Type `ls` again to confirm the file is now available for you to work with.
+5. Bring data into this computing environment: `gcloud storage cp {URI HERE} .`. Type `ls` again to confirm the file is now available for you to work with.
 
 In the next steps, we'll shift gears a bit to examine some processed data.
 
