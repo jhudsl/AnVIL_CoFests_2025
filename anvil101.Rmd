@@ -98,8 +98,23 @@ HPC access and setups vary from institution to institution. Here, we'll walk thr
 
 1. Click on the "DATA" tab. Locate the "Browse workspace files" icon on the righthand side.
 
-2. Click the "Upload" button and upload this file: https://genomicseducation.org/data/mouse_gutbrain_de_counts_prefrontalcortex.csv. You might need to right-click to save this file to your local machine.
+2. Click the "Upload" button and upload this file: https://genomicseducation.org/data/mouse_gutbrain_de_counts_controls.csv. You might need to right-click to save this file to your local machine.
 
 3. Navigate to the "ANALYSES" tab. Select the `mouse_gutbrain_DE.ipynb` notebook. Click "Open".
 
 4. Follow along with the instructions in the notebook to perform some analyses!
+
+## Shut down environments
+
+A good practice to control costs is to shut down any computing environments when you're done. This:
+
+- Deletes any data you imported or created in your persistent disk
+- DOES NOT delete any data in the workspace bucket or code in .ipynb notebooks
+
+For this activity, you can keep environments going if you want to continue to experiment. We will shut down the environment automatically at the end of the day. If you want to shut things down immediately, you should:
+
+1. Click on the Jupyter logo. Click on "Settings".
+
+2. Click on "Delete Environment". Select "Delete everything, including persistent disk" and click "Delete".
+
+> You can also go to https://anvil.terra.bio/#clusters to see if you are accruing any analysis costs.
