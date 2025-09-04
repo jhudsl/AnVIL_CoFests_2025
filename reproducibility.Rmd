@@ -12,6 +12,6 @@ Participants are not required to supply their own data, as publicly available da
 
 ## Workspace
 
-The workspace for this track can be found at https://anvil.terra.bio/#workspaces/anvil-outreach-hutch-consult/AnVIL_Mini_Hack_2025
+The workspace for this track can be found at [https://anvil.terra.bio/#workspaces/anvil-outreach-hutch-consult/AnVIL_Mini_Hack_2025](https://anvil.terra.bio/#workspaces/anvil-outreach-hutch-consult/AnVIL_Mini_Hack_2025)
 
 Clone the Workspace. Use the billing project provided by your instructor, or one of your choice. You might want to call the workspace “AnVIL_Mini_Hack_2025-{your name here}“, because workspace names on the same billing project must be unique.
