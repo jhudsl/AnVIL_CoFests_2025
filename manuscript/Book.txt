@@ -1,7 +1,0 @@
-1-AnVIL-101.md
-2-Polygenic-Risk-Score-(PRS)-Mix-Analysis-in-AnVIL.md
-3-Reproducible-Analysis-on-AnVIL-(title-TBD).md
-4-References.md
-What-are-CoFests.md
-Organizer-Guide.md
-About-the-Authors.md
