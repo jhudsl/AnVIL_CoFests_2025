@@ -4,20 +4,13 @@ Led by: Ava Hoffman, Fred Hutch Cancer Center
 
 <br><br>
 
-AnVIL Outreach coordinators: 
-
-- Elizabeth Humphries, Fred Hutch Cancer Center
-- Kate Isaac, Fred Hutch Cancer Center
-- Natalie Kucher, Johns Hopkins University
-- Stephen Mosher, Johns Hopkins University
-
 ## About
 
 This track will consist of both an overview and a hands-on workshop to provide individuals with a starting point to their work on AnVIL.
 
 Participants are not required to supply their own data, as publicly available data and an AnVIL workspace will be provided as part of the CoFest track.
 
-You can follow along with the agenda on Google Docs [here](https://docs.google.com/document/d/1P_Dgiv5YEVagXI0uObR7ajAoyWGof94A9PhffB1HSVg/edit?tab=t.0).
+You can follow along with the agenda on Google Docs [here](https://docs.google.com/document/d/1xnnZTpxBy3WCqIBHTG6QtFNWnBa42RZxCeyxNGibE6o/edit?tab=t.0).
 
 ## Workspace
 
