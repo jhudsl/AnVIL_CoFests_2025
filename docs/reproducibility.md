@@ -1,4 +1,4 @@
-# Reproducible Analysis on AnVIL (title TBD)
+# AnVIL Mini Hack: Reproducibility in Action!
 
 Led by: Allissa Dillman, Engagement and Outreach Lead for the Office of Data Science Strategy at the NIH
 
@@ -6,10 +6,12 @@ AnVIL Outreach coordinator: Kate Isaac
 
 ## About
 
-This track will consist of
+Every dataset tells a story, yet deciphering exactly how a figure was constructed can feel like solving a puzzle with missing pieces. Reproducibility is often harder than it looks; what feels intuitive to the author may be confusing with fresh eyes. This mini-hackathon challenges teams to recreate figures from the [MAGE RNA sequencing study](https://pmc-ncbi-nlm-nih-gov.fhcrc.idm.oclc.org/articles/PMC11291278/) using real omics data from the 1000 Genomes Project, with the option to design new visualizations from these open datasets. Teams can also create additional visualizations from the open data. Through hands-on experience with cloud-based tools on AnVIL, participants will discover that computational reproducibility requires creativity, problem-solving, and detective work that go beyond simply following published protocols.
 
 Participants are not required to supply their own data, as publicly available data and an AnVIL workspace will be provided as part of the CoFest track.
 
 ## Workspace
 
-The workspace for this track can be found at 
+The workspace for this track can be found at [https://anvil.terra.bio/#workspaces/anvil-outreach-hutch-consult/AnVIL_Mini_Hack_2025](https://anvil.terra.bio/#workspaces/anvil-outreach-hutch-consult/AnVIL_Mini_Hack_2025)
+
+Clone the Workspace. Use the billing project provided by your instructor, or one of your choice. You might want to call the workspace “AnVIL_Mini_Hack_2025-{your name here}“, because workspace names on the same billing project must be unique.
